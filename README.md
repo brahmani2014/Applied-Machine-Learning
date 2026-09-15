@@ -12,20 +12,20 @@ to the corresponding examples in the book.
 
 | Chapter | Topic | Example data |
 | ---: | --- | --- |
-| 1 | Python fundamentals | USDA rural-development borrowers |
-| 2 | Loading and visualizing data | Iris and USDA data |
-| 3 | Feature selection | Forest Fires |
-| 4 | Linear and logistic regression | Pokemon |
-| 5 | Multiclass logistic regression | Forest Fires |
-| 6 | Decision trees | Social Media vs Productivity |
-| 7 | K-nearest neighbors | Depression and Anxiety |
-| 8 | Support-vector machines | Flight Price Prediction |
-| 9 | K-means clustering | Worldwide Temperature |
-| 10 | Hierarchical clustering | NYC Air Quality |
-| 11 | XGBoost and random forests | Pima Diabetes and Iris |
+| 1 | [Python fundamentals](chapters/chapter-01-python-basics/python-basics.ipynb) | USDA rural-development borrowers |
+| 2 | [Loading and visualizing data](chapters/chapter-02-data-visualization/data-visualization.ipynb) | Iris and USDA data |
+| 3 | [Feature selection](chapters/chapter-03-feature-selection/feature-selection.ipynb) | Forest Fires |
+| 4 | [Linear and logistic regression](chapters/chapter-04-regression/regression.ipynb) | Pokemon |
+| 5 | [Multiclass logistic regression](chapters/chapter-05-multiclass-logistic-regression/multiclass-logistic-regression.ipynb) | Forest Fires |
+| 6 | [Decision trees](chapters/chapter-06-decision-trees/decision-trees.ipynb) | Social Media vs Productivity |
+| 7 | [K-nearest neighbors](chapters/chapter-07-k-nearest-neighbors/knn-classification.ipynb) | Depression and Anxiety |
+| 8 | [Support-vector machines](chapters/chapter-08-support-vector-machines/svm-classification.ipynb) | Flight Price Prediction |
+| 9 | [K-means clustering](chapters/chapter-09-k-means-clustering/k-means-clustering.ipynb) | Worldwide Temperature |
+| 10 | [Hierarchical clustering](chapters/chapter-10-hierarchical-clustering/hierarchical-clustering.ipynb) | NYC Air Quality |
+| 11 | [XGBoost and random forests](chapters/chapter-11-ensemble-methods/ensemble-methods.ipynb) | Pima Diabetes and Iris |
 
 The original collected examples are preserved in [Codes.pdf](Codes.pdf). The code
-is being organized into chapter-level Jupyter notebooks so readers can run each
+is organized into chapter-level Jupyter notebooks so readers can work through each
 example independently while comparing it with the published material.
 
 ## Repository principles
@@ -42,9 +42,8 @@ example independently while comparing it with the published material.
 
 ## Getting started
 
-The executable chapter notebooks and dependency manifest are being prepared from
-the original material. When they are available, the intended local workflow will
-be:
+The chapter notebooks are available above. The dependency manifest is being
+prepared from the original material; the intended local workflow is:
 
 ```bash
 python -m venv .venv
